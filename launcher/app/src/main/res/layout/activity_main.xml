@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/back"
+              android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:layout_weight="19"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </android.support.v4.view.ViewPager>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/mark"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+</LinearLayout>
